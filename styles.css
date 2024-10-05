@@ -1,0 +1,80 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffffea;
+}
+
+.retangulo{
+    justify-content: center;
+    display: flex;
+}
+
+.retanguloconteudo{
+    width: 255px;
+    height: 470px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 10px;
+    flex-direction:column;
+    align-items: center;
+    margin: 25px;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgb(0, 0, 0);
+    display: flex;
+}
+
+.retanguloconteudo .plano{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 1px;
+}
+
+.retanguloconteudo .valor{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1px;
+    font-size: 32px;
+    background-color: #0099cc;
+    font-size: 13pt;
+    
+}
+
+
+
+.retanguloconteudo .memoria{
+    margin: 1px;
+    line-height: 1;
+    font-size: 17px;
+}
+
+.retanguloconteudo .oferta{
+  
+    list-style-type: disc;
+    line-height: 150%;
+    margin-top: 3%;
+    padding-left: 20px;
+    text-align:left;
+   
+}
+.retanguloconteudo .Botaocomprar{
+    background:linear-gradient(#2786e6, #0e58a3, #012446);
+    border-radius: 5px 5px 5px 5px;
+   display: flex;
+    padding: 15px;
+    color: white;
+   
+}
+
+
+
+.Botaocomprar img{
+    width: 23px;
+    height: 20px;
+   
+}
